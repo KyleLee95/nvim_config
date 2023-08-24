@@ -39,6 +39,7 @@ vim.keymap.set("n", "gR", "<cmd>TroubleToggle lsp_references<cr>", { silent = tr
 -- vimtex compile
 map({ "i", "n", "v" }, "<leader>vc", ":VimtexCompile <Enter>")
 
+map({ "i", "n", "v" }, "<leader>sc", ":set spell<Enter>")
 --DAP keybinds
 
 --map({ "i", "n", "v" }, "<F1>", ":lua require'dap'.continue()<CR>")
